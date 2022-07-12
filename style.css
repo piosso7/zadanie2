@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.wraper {
+  margin: 10px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.wraper div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+input {
+  margin: 10px auto
+}
+
+p {
+  text-align: center;
+  margin: 10px;
+  overflow-wrap: anywhere;
+}
+
+button {
+  margin: 10px;
+  padding: 2px;
+}
